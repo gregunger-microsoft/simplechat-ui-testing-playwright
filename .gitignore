@@ -15,7 +15,6 @@ pnpm-debug.log
 # Environment variables
 .env
 .env.*
-.env_sample
 
 # IDE, OS, and Editor files
 .DS_Store

@@ -8,7 +8,7 @@ export default defineConfig({
   retries: 0,
   use: {
     // Base URL to use in actions like `await page.goto('/')`.
-    baseURL: 'https://gunger-simplechat-singleapp.mangomeadow-2fcac1b3.eastus2.azurecontainerapps.io',
+    baseURL: process.env.BASE_URL,
     trace: 'on-first-retry',
   },
   projects: [

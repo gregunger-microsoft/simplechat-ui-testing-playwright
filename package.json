@@ -1,0 +1,19 @@
+{
+  "name": "playwright-tests-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.0",
+    "@azure/playwright": "^1.1.2",
+    "@playwright/test": "^1.58.2",
+    "dotenv": "^17.3.1"
+  }
+}

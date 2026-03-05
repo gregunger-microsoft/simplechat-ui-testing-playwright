@@ -1,0 +1,27 @@
+# Node.js dependencies and logs
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+pnpm-debug.log
+
+# Playwright specific files
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Environment variables
+.env
+.env.*
+.env_sample
+
+# IDE, OS, and Editor files
+.DS_Store
+.vscode/ /*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.suo
+Thumbs.db
